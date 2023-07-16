@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    zupports-api-app:
+        image: php:zupports_api
+        ports:
+            - "8000:8000"
+        volumes:
+            - C:/Users/xxiix/OneDrive/เดสก์ท็อป/company_test/zupports/zupports_api:/var/www/html
+        environment:
+            - TZ=Asia/Bangkok
